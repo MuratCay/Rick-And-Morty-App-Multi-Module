@@ -7,9 +7,8 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class CharacterListFragment :
     BaseFragment<FragmentCharacterListBinding, CharacterListViewModel>(R.layout.fragment_character_list) {
-    override fun getViewModelClass(): Class<CharacterListViewModel> {
-        TODO("Not yet implemented")
-    }
+
+    override fun getViewModelClass(): Class<CharacterListViewModel> = CharacterListViewModel::class.java
 
     override fun initObserver() {
         TODO("Not yet implemented")
