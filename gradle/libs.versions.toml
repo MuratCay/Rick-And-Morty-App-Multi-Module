@@ -47,6 +47,7 @@ timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "tim
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-safeArgs = { id = "androidx.navigation.safeargs", version.ref = "safeArgs" }
 dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltPlugin" }
