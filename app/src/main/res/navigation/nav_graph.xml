@@ -2,12 +2,13 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@navigation/characterlist_nav_graph">
+    app:startDestination="@+id/characterlist_nav_graph">
 
     <include app:graph="@navigation/characterlist_nav_graph" />
     <include app:graph="@navigation/characterdetail_nav_graph" />
 
-    <action android:id="@+id/characterlist_to_character_detail"
+    <action
+        android:id="@+id/characterlist_to_character_detail"
         app:destination="@id/characterdetail_nav_graph" />
 
 </navigation>

@@ -6,7 +6,5 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CharacterListViewModel @Inject constructor() : BaseViewModel<CharacterListState>() {
-    override fun setInitialState(): CharacterListState {
-        TODO("Not yet implemented")
-    }
+    override fun setInitialState(): CharacterListState = CharacterListState.Loading
 }

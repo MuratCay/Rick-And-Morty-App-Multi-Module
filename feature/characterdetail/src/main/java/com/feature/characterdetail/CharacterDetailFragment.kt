@@ -11,10 +11,10 @@ class CharacterDetailFragment :
     override fun getViewModelClass(): Class<CharacterDetailViewModel> = CharacterDetailViewModel::class.java
 
     override fun initObserver() {
-        TODO("Not yet implemented")
+
     }
 
     override fun initViews() {
-        TODO("Not yet implemented")
+
     }
 }
