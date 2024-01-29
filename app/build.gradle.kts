@@ -46,6 +46,8 @@ android {
 dependencies {
     implementation(project(":feature:characterlist"))
     implementation(project(":feature:characterdetail"))
+    implementation(project(":feature:settings"))
+
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)

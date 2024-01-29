@@ -6,6 +6,7 @@
 
     <include app:graph="@navigation/characterlist_nav_graph" />
     <include app:graph="@navigation/characterdetail_nav_graph" />
+    <include app:graph="@navigation/settings_nav_graph" />
 
     <action
         android:id="@+id/characterlist_to_character_detail"

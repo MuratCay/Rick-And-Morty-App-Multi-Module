@@ -1,6 +1,7 @@
-package com.frature.settings
+package com.feature.settings
 
 import com.core.common.base.BaseFragment
+import com.frature.settings.R
 import com.frature.settings.databinding.FragmentSettingsBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -11,11 +12,11 @@ class SettingsFragment :
     override fun getViewModelClass(): Class<SettingsViewModel> = SettingsViewModel::class.java
 
     override fun initObserver() {
-        TODO("Not yet implemented")
+
     }
 
     override fun initViews() {
-        TODO("Not yet implemented")
+
     }
 
 }
