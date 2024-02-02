@@ -8,3 +8,5 @@ object Environments {
         const val baseUrl = "https://rickandmortyapi.com/api/"
     }
 }
+
+// Object içinde object kullanmamın sebebi, Environments objesinin içinde Release ve Debug objelerini tutmak istememdir.

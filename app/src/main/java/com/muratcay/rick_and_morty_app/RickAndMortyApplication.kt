@@ -15,6 +15,7 @@ class RickAndMortyApplication : Application() {
         }
     }
 
+    // Bu kodu yazmak yerine BuildConfig.DEBUG kullanılabilir.
     private fun isDebuggable(): Boolean {
         return (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
     }
