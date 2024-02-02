@@ -19,10 +19,12 @@ android {
         multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
         getByName("release") {
+            buildConfigField("String", "BASE_URL", "\"" + "https://rickandmortyapi.com/api/" + "\"")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -30,6 +32,7 @@ android {
             )
         }
         getByName("debug") {
+            buildConfigField("String", "BASE_URL", "\"" + "https://rickandmortyapi.com/api/" + "\"")
             isMinifyEnabled = false
             applicationIdSuffix = ".debug"
             versionNameSuffix = "-debug"
@@ -44,6 +47,7 @@ android {
     }
 
     buildFeatures {
+        buildConfig = true
         dataBinding = true
     }
 }
