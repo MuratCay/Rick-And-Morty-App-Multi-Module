@@ -6,5 +6,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CharacterListViewModel @Inject constructor() : BaseViewModel<CharacterListState>() {
+
     override fun setInitialState(): CharacterListState = CharacterListState.Loading
 }
