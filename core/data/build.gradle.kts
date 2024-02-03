@@ -40,8 +40,8 @@ android {
 
 dependencies {
     implementation(project(":app"))
-    implementation(project(":core:model"))
-    implementation(project(":core:common"))
+    api(project(":core:model"))
+    api(project(":core:common"))
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)

@@ -52,6 +52,7 @@ android {
 }
 
 dependencies {
+    // implementation ile api arasındaki fark implementation sadece bu modülde kullanılırken api bu modülü kullanan modüllerde de kullanılır
     implementation(project(":feature:characterlist"))
     implementation(project(":feature:characterdetail"))
     implementation(project(":feature:settings"))

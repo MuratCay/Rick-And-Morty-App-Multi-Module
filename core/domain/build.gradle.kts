@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    api(project(":core:model"))
+
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
