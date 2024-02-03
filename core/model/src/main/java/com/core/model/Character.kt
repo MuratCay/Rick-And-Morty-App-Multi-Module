@@ -8,5 +8,5 @@ data class Character(
     @SerialName("info")
     val info: Info?,
     @SerialName("results")
-    val results: List<Result?>?
+    val characterDetails: List<CharacterDetail?>?
 )

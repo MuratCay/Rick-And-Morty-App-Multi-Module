@@ -1,4 +1,4 @@
-package com.core.data.remote.di
+package com.core.data.di
 
 import dagger.Module
 import dagger.Provides

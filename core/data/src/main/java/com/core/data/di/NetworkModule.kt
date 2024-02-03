@@ -1,10 +1,10 @@
-package com.core.data.remote.di
+package com.core.data.di
 
 import android.content.Context
 import com.core.common.Constants.CONNECT_TIMEOUT
 import com.core.common.Constants.READ_TIMEOUT
 import com.core.common.Constants.WRITE_TIMEOUT
-import com.core.data.remote.service.CharacterService
+import com.core.data.service.CharacterService
 import com.muratcay.rick_and_morty_app.BuildConfig
 import dagger.Module
 import dagger.Provides

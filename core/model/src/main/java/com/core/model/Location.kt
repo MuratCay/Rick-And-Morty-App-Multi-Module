@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Location(
     @SerialName("name")
-    val name: String?,
+    val name: String,
     @SerialName("url")
-    val url: String?
+    val url: String
 )

@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Result(
+data class CharacterDetail(
     @SerialName("created")
     val created: String?,
     @SerialName("episode")
@@ -16,7 +16,7 @@ data class Result(
     @SerialName("image")
     val image: String?,
     @SerialName("location")
-    val location: Location?,
+    val location: Location,
     @SerialName("name")
     val name: String?,
     @SerialName("origin")
@@ -28,5 +28,7 @@ data class Result(
     @SerialName("type")
     val type: String?,
     @SerialName("url")
-    val url: String?
+    val url: String?,
+    @SerialName("isBookMarked")
+    var isBookMarked: Boolean
 )
